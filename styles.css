@@ -63,7 +63,7 @@
   --------------------------------------------------------------*/
   
   #mainNav {
-    background-color: var(--color-secondary);
+    background-color: var(--color-tertiary);
     color: var(--color-default);
     padding: 20px 10px;
     transition: all 0.5s;
@@ -118,8 +118,8 @@
    /*--------------------------------------------------------------
   # Start Section
   --------------------------------------------------------------*/
-  .start .container{
-    padding: 50px
+  .overview .container{
+    padding: 20px
   }
   
   /*--------------------------------------------------------------
