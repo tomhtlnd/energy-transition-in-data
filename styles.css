@@ -1,5 +1,12 @@
+  /**
+* Parts of the css code was taken from the following template and modified to fit the needs of the project:
+* Template Name: UpConstruction - v1.3.0
+* Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 
-:root {
+  :root {
     --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-primary: "Roboto", sans-serif;
     --font-secondary: "Work Sans", sans-serif;
@@ -64,7 +71,7 @@
   }
 
   /*--------------------------------------------------------------
-  # Sections & Section Header
+  # Sections & Section Header (template)
   --------------------------------------------------------------*/
   section {
     padding: 80px 0;
@@ -108,21 +115,14 @@
     margin: 0 auto 0 auto;
   }
 
-   /*--------------------------------------------------------------
-  # Start Section
-  --------------------------------------------------------------*/
-  .overview .container{
-    padding: 20px
-  }
-
     /*--------------------------------------------------------------
-  # Get Started Section
+  # Introdcution Section (template)
   --------------------------------------------------------------*/
-  .get-started .content {
+  .intro .content {
     padding: 20px;
   }
 
-  .get-started .content h3 {
+  .intro .content h3 {
     font-size: 36px;
     color: var(--color-default);
     font-weight: 600;
@@ -130,7 +130,7 @@
     position: relative;
   }
 
-  .get-started .content h3:after {
+  .intro .content h3:after {
     content: "";
     position: absolute;
     display: block;
@@ -141,12 +141,19 @@
     bottom: 0;
   }
 
-  .get-started .content p {
+  .intro .content p {
     font-size: 14px;
   }
   
+     /*--------------------------------------------------------------
+  # Start Section
+  --------------------------------------------------------------*/
+  .overview .container{
+    padding: 20px
+  }
+
   /*--------------------------------------------------------------
-  # Hero Section
+  # Hero Section (template)
   --------------------------------------------------------------*/
   .hero {
     overflow-x: hidden;
@@ -208,7 +215,7 @@
   }
 
   /*--------------------------------------------------------------
-# Features Section
+# Features Section (template)
 --------------------------------------------------------------*/
 .top4 .nav-tabs {
   border: 0;
@@ -292,18 +299,8 @@
 }
 
 /*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  min-height: 100vh;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-}
-
-
-/*--------------------------------------------------------------
 # Flip cards
+* Codes was taken and modified from https://bbbootstrap.com/snippets/bootstrap-5-flipping-cards-for-catalog-29291738
 --------------------------------------------------------------*/
 .container{
   transform-style: preserve-3d;
@@ -372,3 +369,94 @@
   transform: translateZ(80px);
 }
 
+/*--------------------------------------------------------------
+# Quote
+--------------------------------------------------------------*/
+
+.quote {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quote .blockquote{
+  font-size: 36px;
+  font-weight: 600;
+  padding: 0 0 20px 0;
+}
+
+.quote .blockquote-footer{
+  font-size: 16px;
+  font-weight: 200px;
+  color: var(--color-primary);
+}
+
+/*--------------------------------------------------------------
+# Footer (template)
+--------------------------------------------------------------*/
+.footer {
+  color: var(--color-secondary);
+  font-size: 14px;
+  padding: 80px 0 20px 0;
+  position: relative;
+}
+
+.footer:before {
+  content: "";
+  background: var(--color-default);
+  position: absolute;
+  inset: 0;
+}
+
+.footer .footer-content .footer-info {
+  margin-bottom: 20px;
+}
+
+.footer .footer-content .footer-info h3 {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer .footer-content .footer-info h5{
+  color: var(--color-primary);
+}
+
+.footer .footer-content h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-secondary);
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer .footer-content .footer-links {
+  margin-bottom: 30px;
+}
+
+.footer .footer-content .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-content .footer-links ul li {
+  padding: 8px 0;
+}
+
+.footer .footer-content .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.footer .footer-content .footer-links ul a {
+  color: var(--color-tertiary);
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+.footer .footer-content .footer-links ul a:hover {
+  color: var(--color-primary);
+}
