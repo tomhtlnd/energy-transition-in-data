@@ -6,7 +6,5 @@ This project features an informative website designed to provide insights into t
 ## Preview
 ![Website Screenshot](assets/website-preview.png)
 
-*Preview of the "Energy transition in data" website*
-
 ## Live Site
 Explore the website live at [Energy transition in data](https://tomhtlnd.github.io/energy-transition-in-data/).
